@@ -29,7 +29,7 @@ export const Stack = () => {
     }
       
     }
-  }, [inView])
+  }, [inView, animation])
   return (
     <div id='skill'>
       <motion.h2 

@@ -8,33 +8,11 @@ export const Profile = () => {
     <div className="profile_container">
       <div className="profile_parent">
         <div className="profile_details">
-          {/* <div className="colz">
-            <div className="colz_icon">
-            <a href="https://web.facebook.com/nwafor.emeka.777">
-              <i className='fa fa-facebook-square'></i>
-            </a>
-            <a href="#">
-              <i className='fa fa-google-plus-square'></i>
-            </a>
-            <a href="https://www.instagram.com/augustineodezulu">
-              <i className='fa fa-instagram'></i>
-            </a>
-            <a href="www.linkedin.com/">
-              <i className='fa fa-linkedin-square'></i>
-            </a>
-            <a href="https://mobile.twitter.com/ChukwuemekaOd">
-              <i className='fa fa-twitter-square'></i>
-            </a>
-
-            </div>
-          </div> */}
+          
 
           <div className="profile_details_name">
             <span 
             className="primary_text"
-            // initial={{x: -300, scale: 0.5,}} 
-            //   animate={{x:100, scale: 1}}
-            //   transition={{duration: 1.5}}
             >
               <motion.h3
               initial={{x: -300, scale: 0.5,}} 
@@ -98,9 +76,9 @@ export const Profile = () => {
               <a href="https://web.facebook.com/nwafor.emeka.777">
                 <i className="fa fa-facebook-square"></i>
               </a>
-              <a href="#">
+              {/* <a href="#">
                 <i className="fa fa-google-plus-square"></i>
-              </a>
+              </a> */}
               <a href="https://www.instagram.com/augustineodezulu">
                 <i className="fa fa-instagram"></i>
               </a>

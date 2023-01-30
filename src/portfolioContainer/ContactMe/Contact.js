@@ -20,7 +20,7 @@ export const Contact = () => {
       })
       
     }
-  }, [inView])
+  }, [inView, animation])
   return (
     <>
       {/* Contact section */}

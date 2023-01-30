@@ -93,7 +93,7 @@ export const WorkExperience = () => {
       })
       
     }
-  }, [inView])
+  }, [inView, animation])
   return (
     <>
       {/* Place of work section */}

@@ -7,7 +7,7 @@ export const NavLinks = (props) => {
         <li className="nav-item" 
         onClick={()=> props.isMobile && props.closeMobileMenu()}
         >
-          <a href="#" className="nav-link">
+          <a href="/#" className="nav-link">
             Home
           </a>
         </li>
