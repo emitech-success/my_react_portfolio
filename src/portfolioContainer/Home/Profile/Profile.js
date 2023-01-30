@@ -1,6 +1,6 @@
 import React from "react";
 import "./Profile.css";
-import Typical from "react-typical";
+// import Typical from "react-typical";
 import  {motion} from 'framer-motion';
 
 export const Profile = () => {
@@ -55,7 +55,7 @@ export const Profile = () => {
               {""}
               <h1>
                 {""}
-                <Typical
+                {/* <Typical
                   loop={Infinity}
                   steps={[
                     "Enthusiast Dev 😍",
@@ -67,7 +67,7 @@ export const Profile = () => {
                     "Graphic Designer 🖋",
                     1000,
                   ]}
-                />
+                /> */}
               </h1>
               <span className="profile_role_tagline">
                 Building client-based applications while integrating the server
