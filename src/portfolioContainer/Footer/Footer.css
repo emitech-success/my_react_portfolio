@@ -1,0 +1,22 @@
+/* Footer section */
+#main-footer{
+  text-align: center;
+  background: #24263B;
+  color: #fff;
+  padding: 20px;
+  font-size: 18px;
+}
+.social-account-wrapper{
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+.social-account-wrapper a, .contact-with-email a{
+  color: #fff;
+}
+.copyright{
+  margin-top: 3rem;
+}
+.copyright-text{
+  font-size: 14px;
+}

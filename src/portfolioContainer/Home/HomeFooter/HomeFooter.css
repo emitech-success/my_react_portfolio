@@ -1,0 +1,28 @@
+.homeFooter_container{
+  /* margin-top: 3rem; */
+  height: 18.7%;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.homeFooter_parent{
+  width: 100%;
+  height: 100%;
+  max-width: 1920px;
+}
+.homeFooter_parent img{
+  max-width: 100%;
+  height: 130px;
+}
+@media only  screen and (max-width:1110px) {
+  .homeFooter_parent{
+    display: flex;
+    align-items: flex-end;
+  }
+}
+@media only  screen and (max-width:767px) {
+  .homeFooter_parent{
+    display: none;
+  }
+}

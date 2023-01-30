@@ -1,0 +1,24 @@
+.stack_card{
+  width: 60%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+.stack_icons{
+  font-size: 40px;
+  color: #24263B;
+}
+@media only screen and (max-width: 900px) {
+  .stack_card{
+    width: 100%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+}
