@@ -99,14 +99,7 @@ export const WorkExperience = () => {
       {/* Place of work section */}
       <motion.section className="section place-of-work-section" id="work"
       animate= {animation}
-      // animate={{
-      //   scale:[2,1],
-      //   rotate:[90,0]
-      // }}
-      // transition={{
-      //   duration: 1,
-      //   ease:'easeInOut'
-      // }}
+     
       >
         <motion.h2
           className="section_head_text"
