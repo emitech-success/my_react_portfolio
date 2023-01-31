@@ -1,30 +1,23 @@
 import React from "react";
 import "./Profile.css";
 // import Typical from "react-typical";
-import  {motion} from 'framer-motion';
+import { motion } from "framer-motion";
+import Typewriter from "typewriter-effect";
 
 export const Profile = () => {
   return (
     <div className="profile_container">
       <div className="profile_parent">
         <div className="profile_details">
-          
-
           <div className="profile_details_name">
-            <span 
-            className="primary_text"
-            >
+            <span className="primary_text">
               <motion.h3
-              initial={{x: -300, scale: 0.5,}} 
-              animate={{x:0, scale: 1}}
-              transition={{duration: 1.5}}
+                initial={{ x: -300, scale: 0.5 }}
+                animate={{ x: 0, scale: 1 }}
+                transition={{ duration: 1.5 }}
               >
-              
-              Hello, I'm
-              <span 
-              className="highlighted_text"
-              
-              > Odezulu Augustine</span>
+                Hello, I'm
+                <span className="highlighted_text"> Odezulu Augustine</span>
               </motion.h3>
             </span>
           </div>
@@ -32,6 +25,26 @@ export const Profile = () => {
             <span className="primary_text">
               {""}
               <h1>
+                <Typewriter
+                loop={true}
+                  onInit={(typewriter) => {
+                    typewriter
+
+                      .typeString("Enthusiast Dev 😍")
+
+                      .pauseFor(1000)
+                      .deleteAll()
+                      .typeString( "Frontend Developer 👩‍💻")
+                      .pauseFor(2000)
+                      .deleteAll()
+                      .typeString( "Content Developer ✍")
+                      .pauseFor(2000)
+                      .deleteAll()
+                      .typeString( "Graphic Designer 🖋")
+                      .start();
+                  }}
+                />
+
                 {""}
                 {/* <Typical
                   loop={Infinity}
@@ -54,8 +67,10 @@ export const Profile = () => {
           </div>
           <div className="profile_options">
             <button className="btn primary_btn">
-              <a href="#contact-form" className="hire_me"> Hire Me</a>
-             
+              <a href="#contact-form" className="hire_me">
+                {" "}
+                Hire Me
+              </a>
             </button>
 
             <a
