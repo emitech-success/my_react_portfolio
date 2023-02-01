@@ -21,6 +21,11 @@
     align-items: flex-end;
   }
 }
+@media only  screen and (max-width:1110px) {
+  .homeFooter_parent img{
+    height: 103px;
+  }
+}
 @media only  screen and (max-width:767px) {
   .homeFooter_parent{
     display: none;

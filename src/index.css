@@ -143,6 +143,6 @@ body ::-webkit-scrollbar-thumb {
   text-align: center;
   font-size: 2.5rem;
   font-weight: 700;
-  margin: 2rem 0;
+  margin: 4rem 0 2rem 0;
   color: #FF5823;
 }

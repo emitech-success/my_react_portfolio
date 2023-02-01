@@ -114,6 +114,16 @@
 }
 
 @media screen and (max-width: 910px){
+  .profile_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 24%;
+    min-height: fit-content;
+    margin-top: 22%;
+    
+  }
   .profile_picture{
     height: 320px;
     width: 320px;
@@ -130,7 +140,7 @@
     display: flex;
     border: red;
     flex-direction: column-reverse;
-    margin: 40px 0 0 0;
+    margin: 37rem 0 0 0;
   }
   .profile_options{
     display: flex;
@@ -139,6 +149,9 @@
   }
   .profile_details{
     margin: 25px 0 0;
+  }
+  .primary_text h1{
+    font-size: 20px;
   }
   .profile_options .highlighted_btn{
     margin: 0 !important;
