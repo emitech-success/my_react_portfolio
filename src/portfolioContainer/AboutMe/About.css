@@ -6,6 +6,9 @@
   margin: 2rem 0;
   color: #24263B;
 } */
+/* .about-wrapper{
+  height: 80px;
+} */
 .about-container{
   position: relative;
   z-index: 0;
@@ -73,9 +76,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: justify;
+    /* text-align: justify; */
     padding-right: 2px;
-    /* text-align: center; */
+    text-align: center;
     
     align-items: center;
     padding-right: 0px;

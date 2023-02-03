@@ -22,7 +22,7 @@ export const Contact = () => {
     }
   }, [inView, animation])
   return (
-    <>
+    <div className='heading'>
       {/* Contact section */}
       <section id="contact-form" className="contact_wrapper" ref={ref}>
         <motion.div className="container"
@@ -58,6 +58,6 @@ export const Contact = () => {
         </motion.div>
       </section>
       <ContactFooter />
-    </>
+    </div>
   )
 }

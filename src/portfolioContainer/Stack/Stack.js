@@ -31,7 +31,7 @@ export const Stack = () => {
     }
   }, [inView, animation])
   return (
-    <div id='skill'>
+    <div className='heading' id='skill'>
       <motion.h2 
       ref={ref}
       className='section_head_text'
