@@ -137,7 +137,7 @@ export const WorkExperience = () => {
           animate={{ x: 0, scale: 1 }}
           transition={{ duration: 1.5 }}
         >
-          projects
+          Projects
         </motion.h2>
         <section className="project-card-wrapper">
           {projects.map((project) =>{

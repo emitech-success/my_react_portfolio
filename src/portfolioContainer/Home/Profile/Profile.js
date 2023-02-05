@@ -67,8 +67,7 @@ export const Profile = () => {
           </div>
           <div className="profile_options">
             <button className="btn primary_btn">
-              <a href="#contact-form" className="hire_me">
-                {" "}
+              <a href="./#contact-form" className="hire_me">
                 Hire Me
               </a>
             </button>
