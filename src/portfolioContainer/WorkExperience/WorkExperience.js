@@ -87,7 +87,7 @@ export const WorkExperience = () => {
     if (inView) {
       animation.start({
         scale:[2,1],
-        rotate:[45,0],
+        rotate:[5,0],
         transition:{duration: 1},
         ease:'easeInOut'
       })
