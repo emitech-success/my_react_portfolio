@@ -87,7 +87,7 @@ export const WorkExperience = () => {
     if (inView) {
       animation.start({
         scale:[2,1],
-        rotate:[90,0],
+        rotate:[45,0],
         transition:{duration: 1},
         ease:'easeInOut'
       })
@@ -98,7 +98,7 @@ export const WorkExperience = () => {
     <>
       {/* Place of work section */}
       <motion.section className="section place-of-work-section" id="work"
-      animate= {animation}
+      // animate= {animation}
      
       >
         <motion.h2

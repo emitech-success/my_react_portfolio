@@ -1,7 +1,9 @@
 import React from 'react'
 import './Contact.css'
 import { ContactFooter } from './ContactFooter'
-import  {motion, useAnimation} from 'framer-motion'
+import  {motion, 
+  useAnimation
+} from 'framer-motion'
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 
@@ -14,7 +16,7 @@ export const Contact = () => {
     if (inView) {
       animation.start({
         scale:[2,1],
-        rotate:[90,0],
+        rotate:[10,0],
         transition:{duration: 1},
         ease:'easeInOut'
       })
